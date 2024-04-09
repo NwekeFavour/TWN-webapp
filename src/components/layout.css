@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,634;1,634&display=swap');
+
+
+#head {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    letter-spacing: 10px;
+    z-index: 1;
+  }
+
+
+  
+.nav {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+.typo p {
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10px;
+  z-index: 1;
+}
+
+#text {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0 auto;
+  width: 210px;
+  background-color: #CC5500 !important;
+}
+
+.first{
+  color: #74A892;
+}
+
+.second{
+  color: #C7522A;
+}
+
+div .S-first{
+  color: #A3B7CA;
+}
+
+div .third{
+  color: #194A7A;
+}
