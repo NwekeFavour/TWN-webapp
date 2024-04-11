@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,634;1,634&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 #head {
     font-family: "Playfair Display", serif;
@@ -32,11 +32,20 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 0 auto;
-  width: 210px;
+  width: 250px;
   background-color: #CC5500 !important;
 }
 
+#overlay{
+  border: 1px solid #476f95;
+  box-shadow: 5px 5px 10px 0 #194A7A;
+  background-color: #476f95;
+  width: 200px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #bbd1ff;
+}
 .first{
   color: #74A892;
 }
@@ -52,3 +61,20 @@ div .S-first{
 div .third{
   color: #194A7A;
 }
+
+@media screen and (max-width:768px) {
+  .btn {
+    background-color: #184A7A;
+    margin-top: 250px;
+    margin-left: 40px;
+  }
+  #head{
+    padding-left: 60px;
+  }
+  #txt2 {
+    padding-top: 80px;
+  }
+}
+
+
+
